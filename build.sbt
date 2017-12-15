@@ -43,9 +43,9 @@ playBuildRepoName in ThisBuild := "play-reactive-mongo"
 
 mimaDefaultSettings
 
-homepage := Some(url("https://github.com/playcommunity"))
-scmInfo := Some(ScmInfo(url("https://github.com/playcommunity"),
-"git@github.com:username/projectname.git"))
+homepage := Some(url("https://github.com/playcommunity/play-reactive-mongo"))
+scmInfo := Some(ScmInfo(url("https://github.com/playcommunity/play-reactive-mongo"),
+"git@github.com:playcommunity/play-reactive-mongo.git"))
 developers := List(Developer("username",
   "joymufeng",
   "joymufeng@gmail.com",
