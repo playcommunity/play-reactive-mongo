@@ -5,7 +5,6 @@ import javax.inject.{ Inject, Provider }
 import org.mongodb.scala.gridfs.GridFSBucket
 import org.mongodb.scala.{ MongoClient, MongoDatabase }
 import play.api.inject.ApplicationLifecycle
-
 import scala.concurrent.Future
 
 trait ReactiveMongo {
